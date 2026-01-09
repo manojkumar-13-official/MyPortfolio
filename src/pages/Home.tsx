@@ -1,6 +1,4 @@
-import React from "react";
 import Image1 from "@/assets/portfolio_Image1.png";
-import Image2 from "@/assets/portfolio_Image2.png";
 import { FiGithub } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoNewspaperOutline } from "react-icons/io5";
@@ -9,7 +7,7 @@ const Home = () => {
     <div className="flex justify-center mt-[7%] space-x-24">
       <div className="h-120 w-[30%] rounded-4xl p-10">
         <div className="mt-10">
-          <h1 className="text-xl font-bold text-white">Hello, I'm</h1>
+          <h1 className="text-xl font-bold  text-white">Hello, I'm</h1>
           <h2 className="text-3xl font-extrabold text-purple-600 mt-2">MANOJKUMAR A</h2>
           <h2 className="text-xl font-semibold text-white mt-2">FullStack Developer</h2>
         </div>
@@ -29,7 +27,7 @@ const Home = () => {
       </div>
       <div className=" relative h-120 w-[30%] rounded-full">
         <div className="absolute inset-0 bg-purple-600 rounded-full blur-lg"></div>
-        <img src={Image1} alt="" className="relative rounded-full h-120 w-120 border-4 border-purple-600 object-cover"/>
+        <img src={Image1} alt="" className="absolute rounded-full h-120 w-120 border-4 border-purple-600 object-cover"/>
       </div>
     </div>
   );

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        
+        "title": "Personal Website",
+        "description": "A responsive personal website to showcase my portfolio and blog.",
+        "technologies": ["HTML", "CSS", "JavaScript", "React"],
+        "link": "https://mywebsite.com",
+        "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
+    },
+    {
+        "id": 2,
+
+        "title": "Weather App",
+        "description": "A weather application that displays current conditions and forecasts.",
+        "technologies": ["HTML", "CSS", "JavaScript", "React"],
+        "link": "https://mywebsite.com",
+        "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
+    },
+    {
+        "id": 3,
+        "title": "Weather App",
+        "description": "A weather application that displays current conditions and forecasts.",
+        "technologies": ["HTML", "CSS", "JavaScript", "React"],
+        "link": "https://mywebsite.com",
+        "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
+    }
+]
+
+    

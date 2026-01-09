@@ -8,7 +8,7 @@ import Contact from './pages/Contact'
 
 const App = () => {
   return (
-    <div className='bg-black min-h-screen'>
+    <div className='bg-black sm:bg-red-800  min-h-screen'>
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
