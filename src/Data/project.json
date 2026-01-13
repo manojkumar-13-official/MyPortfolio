@@ -4,27 +4,32 @@
         
         "title": "Personal Website",
         "description": "A responsive personal website to showcase my portfolio and blog.",
-        "technologies": ["HTML", "CSS", "JavaScript", "React"],
-        "link": "https://mywebsite.com",
+        "technologies": ["HTML", "CSS", "JavaScript","React","Node","tailwind"],
+        "website_link": "https://mywebsite.com",
+        "github_link":"https://github.com/yourusername/your-repo",
         "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
     },
     {
         "id": 2,
-
-        "title": "Weather App",
-        "description": "A weather application that displays current conditions and forecasts.",
-        "technologies": ["HTML", "CSS", "JavaScript", "React"],
-        "link": "https://mywebsite.com",
+        
+        "title": "LandingPage Generator with AI",
+        "description": "It appears to be a simple web app that lets you quickly create landing page templates for your projects without needing to start from scratch.",
+        "technologies": ["React","Tailwind CSS","OpenAI API"],
+        "website_link": "https://landingpagetemplategenerator.web.app/",
+        "github_link":"https://github.com/manojkumar-13-official/AI_LandingPage_Generator",
         "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
     },
     {
         "id": 3,
-        "title": "Weather App",
-        "description": "A weather application that displays current conditions and forecasts.",
+        
+        "title": "Personal Website",
+        "description": "A responsive personal website to showcase my portfolio and blog.",
         "technologies": ["HTML", "CSS", "JavaScript", "React"],
-        "link": "https://mywebsite.com",
+        "website_link": "https://mywebsite.com",
+        "github_link":"https://github.com/yourusername/your-repo",
         "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
     }
+    
 ]
 
     
