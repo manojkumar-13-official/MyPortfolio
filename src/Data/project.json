@@ -28,6 +28,26 @@
         "website_link": "https://mywebsite.com",
         "github_link":"https://github.com/yourusername/your-repo",
         "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
+    },
+    {
+        "id": 3,
+        
+        "title": "Personal Website",
+        "description": "A responsive personal website to showcase my portfolio and blog.",
+        "technologies": ["HTML", "CSS", "JavaScript", "React"],
+        "website_link": "https://mywebsite.com",
+        "github_link":"https://github.com/yourusername/your-repo",
+        "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
+    },
+    {
+        "id": 3,
+        
+        "title": "Personal Website",
+        "description": "A responsive personal website to showcase my portfolio and blog.",
+        "technologies": ["HTML", "CSS", "JavaScript", "React"],
+        "website_link": "https://mywebsite.com",
+        "github_link":"https://github.com/yourusername/your-repo",
+        "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
     }
     
 ]
