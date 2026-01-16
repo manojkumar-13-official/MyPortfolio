@@ -151,7 +151,7 @@ const Modal = ({ props, onClose }: ModalProps) => {
           maxWidth: "600px",
         }}
       >
-        <div className="bg-gray-950 rounded-2xl shadow-2xl overflow-hidden border border-purple-600/30 modal-content">
+        <div className="bg-gray-950 rounded-2xl shadow-2xl overflow-hidden border-2 border-purple-600 modal-content">
           {/* Header Section */}
           <div className="modal-header px-4 sm:px-6 py-4 sm:py-6">
             <div className="flex justify-between items-center">
@@ -198,7 +198,7 @@ const Modal = ({ props, onClose }: ModalProps) => {
               <div className="space-y-2 sm:space-y-3">
                 {/* GitHub Link */}
                 <div className="flex items-center gap-2 sm:gap-3">
-                  <span className="text-xs sm:text-sm text-gray-400 font-medium min-w-[80px] sm:min-w-[100px]">
+                  <span className="text-xs sm:text-sm text-gray-400 font-medium sm:min-w-[100px]">
                     GitHub
                   </span>
                   <a

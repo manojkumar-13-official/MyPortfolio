@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { IoNewspaperOutline } from "react-icons/io5";
 const Home = () => {
   return (
-    <div className="flex justify-center flex-col-reverse sm:flex-row max-sm:items-center mt-[20%] md:mt-[15%] lg:mt-[10%] xl:mt-[8%] space-x-24">
+    <div className="flex justify-center min-h-screen flex-col-reverse sm:flex-row max-sm:items-center mt-[20%] md:mt-[15%] lg:mt-[10%] xl:mt-[8%] space-x-24">
       <div className="h-100 w-[30%] rounded-4xl pt-10">
         <div className="mt-10">
           <h1 className="text-xl font-bold xl:text-2xl text-white">Hello, I'm</h1>

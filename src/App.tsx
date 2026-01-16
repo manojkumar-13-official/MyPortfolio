@@ -6,6 +6,7 @@ import Project from "./pages/Project";
 import Header from "./components/Navbar";
 import Contact from "./pages/Contact";
 import PixelSnow from "./components/PixelSnow";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
           density={0.55}
           variant="round"
           direction={360}
-        />
+        className="min-h-screen"/>
       <div className="bg-gray-950 min-h-screen">
         <Header />
         <Routes>
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="/project" element={<Project />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
+        <Footer/>
       </div>
       </div>
     </>
