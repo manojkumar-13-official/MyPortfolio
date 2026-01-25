@@ -1,7 +1,6 @@
 [
     {
         "id": 1,
-        
         "title": "Personal Website",
         "description": "A responsive personal website to showcase my portfolio and blog.",
         "technologies": ["HTML", "CSS", "JavaScript","React","Node","tailwind"],
@@ -11,43 +10,30 @@
     },
     {
         "id": 2,
-        
         "title": "LandingPage Generator with AI",
         "description": "It appears to be a simple web app that lets you quickly create landing page templates for your projects without needing to start from scratch.",
         "technologies": ["React","Tailwind CSS","OpenAI API"],
         "website_link": "https://landingpagetemplategenerator.web.app/",
         "github_link":"https://github.com/manojkumar-13-official/AI_LandingPage_Generator",
-        "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
+        "image":"https://res.cloudinary.com/dz3op3mga/image/upload/v1769046373/Screenshot_2026-01-17_115847_atmsue.png"
     },
     {
         "id": 3,
-        
-        "title": "Personal Website",
-        "description": "A responsive personal website to showcase my portfolio and blog.",
-        "technologies": ["HTML", "CSS", "JavaScript", "React"],
-        "website_link": "https://mywebsite.com",
-        "github_link":"https://github.com/yourusername/your-repo",
-        "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
+        "title": "MagicWall Game",
+        "description": "MagicWallGame is a web-based interactive game that blends simple mechanics with engaging visuals, built and deployed on Firebase.",
+        "technologies": ["JavaScript","React","Tailwind CSS"],
+        "website_link": "https://magicwallgame.web.app/",
+        "github_link":"https://github.com/manojkumar-13-official/magicwall_game",
+        "image":"https://res.cloudinary.com/dz3op3mga/image/upload/v1769244817/Screenshot_2026-01-24_142251_e3ewq2.png"
     },
     {
-        "id": 3,
-        
-        "title": "Personal Website",
-        "description": "A responsive personal website to showcase my portfolio and blog.",
-        "technologies": ["HTML", "CSS", "JavaScript", "React"],
-        "website_link": "https://mywebsite.com",
-        "github_link":"https://github.com/yourusername/your-repo",
-        "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
-    },
-    {
-        "id": 3,
-        
-        "title": "Personal Website",
-        "description": "A responsive personal website to showcase my portfolio and blog.",
-        "technologies": ["HTML", "CSS", "JavaScript", "React"],
-        "website_link": "https://mywebsite.com",
-        "github_link":"https://github.com/yourusername/your-repo",
-        "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
+        "id": 4,
+        "title": "Weather Website",
+        "description": "A responsive weather website that displays current conditions and forecasts for any location using a weather API.",
+        "technologies": ["JavaScript","React","Tailwind CSS"],
+        "website_link": "https://weatherwebsite.web.app/",
+        "github_link":"https://github.com/manojkumar-13-official/Weather_application",
+        "image":"https://res.cloudinary.com/dz3op3mga/image/upload/v1769353649/weatherWebsite_y44nuh.jpg"
     }
     
 ]

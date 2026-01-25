@@ -113,11 +113,11 @@ const About = () => {
               key={index}
               className="border-2 border-purple-600 p-6 rounded-lg hover:bg-purple-900/20 transition-all duration-300"
             >
-              <h3 className="text-lg font-bold text-purple-400 mb-4">{skillGroup.category}</h3>
+              <h3 className="text-lg font-bold text-white mb-4">{skillGroup.category}</h3>
               <div className="flex flex-wrap gap-2">
-                {skillGroup.skills.map((skill, idx) => (
+                {skillGroup.skills.map((skill, index) => (
                   <span 
-                    key={idx}
+                    key={index}
                     className="bg-purple-700 hover:bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-semibold transition-colors duration-300 cursor-default"
                   >
                     {skill}

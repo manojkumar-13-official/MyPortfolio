@@ -189,8 +189,6 @@
 // export default Contact
 
 
-// d6566b9b-535d-46d0-a83d-c236478fd6fb
-
 
 import React, { useState } from 'react'
 import { FiMail, FiUser, FiMessageSquare, FiSend } from 'react-icons/fi'

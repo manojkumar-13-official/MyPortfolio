@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <div style={{ width: "100%", height: "100%", position: "relative"}}>
-        <PixelSnow
+        {/* <PixelSnow
           flakeSize={0.011}
           pixelResolution={500}
           speed={0.6}
@@ -22,7 +22,7 @@ const App = () => {
           density={0.55}
           variant="round"
           direction={360}
-        className="min-h-screen"/>
+        className="min-h-screen"/> */}
       <div className="bg-gray-950 min-h-screen">
         <Header />
         <Routes>
