@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "title": "Personal Website",
-        "description": "A responsive personal website to showcase my portfolio and blog.",
-        "technologies": ["HTML", "CSS", "JavaScript","React","Node","tailwind"],
-        "website_link": "https://mywebsite.com",
+        "title": "Authentication Project",
+        "description": "A web application that implements user authentication using React and Spring Boot, incorporating JWT for secure token-based authentication.",
+        "technologies": ["React","Tailwind CSS","SpringBoot","JWT"],
+        "website_link": "https://loginauthenticationproject1.web.app/",
         "github_link":"https://github.com/yourusername/your-repo",
         "image":"https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"
     },
