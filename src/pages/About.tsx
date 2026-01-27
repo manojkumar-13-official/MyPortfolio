@@ -72,17 +72,20 @@ const About = () => {
   return (
     <div className="w-full min-h-screenmx-auto pb-10">
       {/* About Header */}
-      <div className="text-center mt-20 mb-16 px-4 md:px-12 lg:px-20">
+      <div className='flex flex-col justify-center items-center relative'>
+      <div className="mt-20 mb-16 p-2 m-2 md:px-12 bg-gray-950 flex flex-col justify-center items-center relative rounded-4xl">
+        
         <h1 className="text-4xl font-bold text-gray-400 mb-4">About Me</h1>
         <p className="text-lg text-gray-300 max-w-2xl mx-auto">
           I'm a passionate Full Stack Developer with a strong foundation in web technologies. 
           I love building scalable applications and learning new technologies.
         </p>
       </div>
+      </div>
 
       {/* Experience Section */}
-      <div className="mb-16 px-4 md:px-12 lg:px-20">
-        <h2 className="text-3xl font-bold text-purple-600 flex items-center gap-3 mb-8">
+      <div className="mb-16 px-4 md:px-12 lg:px-20 ">
+        <h2 className="text-3xl font-bold text-purple-600 flex items-center bg-gray-950 gap-3 mb-8">
           <FaBriefcase className="text-purple-600" />
           Experience
         </h2>
@@ -90,7 +93,7 @@ const About = () => {
           {experienceData.map((exp) => (
             <div 
               key={exp.id}
-              className="border-l-4 border-purple-600 pl-6 py-2 hover:pl-8 transition-all duration-300"
+              className="border-2 border-purple-600 pl-6 py-2 rounded-xl md:w-[70%] lg:w-[60%] bg-gray-950 relative hover:bg-gray-950 transition-all duration-300 hover:shadow-lg hover:shadow-purple-600/50 hover:scale-105"
             >
               <h3 className="text-xl font-bold text-purple-400 mb-1">{exp.position}</h3>
               <p className="text-white font-semibold mb-1">{exp.company}</p>
@@ -111,10 +114,10 @@ const About = () => {
           {skillsData.map((skillGroup, index) => (
             <div 
               key={index}
-              className="border-2 border-purple-600 p-6 rounded-lg hover:bg-purple-900/20 transition-all duration-300"
+              className="border-2 border-purple-600 p-6 rounded-lg hover:scale-105 hover:bg-gray-950 transition-all duration-300 hover:shadow-lg hover:shadow-purple-600/50 bg-gray-950 relative"
             >
               <h3 className="text-lg font-bold text-white mb-4">{skillGroup.category}</h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 ">
                 {skillGroup.skills.map((skill, index) => (
                   <span 
                     key={index}
@@ -163,7 +166,7 @@ const About = () => {
           {educationData.map((edu) => (
             <div 
               key={edu.id} 
-              className="border-2 border-purple-600 p-6 rounded-lg hover:bg-purple-900/20 transition-all duration-300 hover:shadow-lg hover:shadow-purple-600/50"
+              className="border-2 border-purple-600 bg-gray-950 relative p-6 rounded-lg hover:scale-105 hover:bg-gray-950 transition-all duration-300 hover:shadow-lg hover:shadow-purple-600/50"
             >
               <h3 className="text-xl font-bold text-purple-400 mb-2">{edu.degree}</h3>
               <p className="text-lg font-semibold text-white mb-1">{edu.field}</p>

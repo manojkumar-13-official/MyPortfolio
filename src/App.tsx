@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -12,9 +11,9 @@ const App = () => {
   return (
     <>
       <div style={{ width: "100%", height: "100%", position: "relative"}}>
-        {/* <PixelSnow
-          flakeSize={0.011}
-          pixelResolution={500}
+        <PixelSnow
+          flakeSize={0.006}
+          pixelResolution={10000}
           speed={0.6}
           depthFade={20}
           farPlane={13}
@@ -22,8 +21,8 @@ const App = () => {
           density={0.55}
           variant="round"
           direction={360}
-        className="min-h-screen"/> */}
-      <div className="bg-gray-950 min-h-screen">
+        className="min-h-screen"/>
+      <div className="bg-gray-950">
         <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>

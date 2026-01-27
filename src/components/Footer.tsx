@@ -19,7 +19,7 @@ const Footer = () => {
     {
       id: 2,
       icon: FaLinkedinIn,
-      url: "https://www.linkedin.com/in/manojkumar-a-0b05382b0/",
+      url: "https://www.linkedin.com/in/manojkumar-a/",
       label: "LinkedIn",
     },
     {
