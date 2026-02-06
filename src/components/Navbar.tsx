@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative top-10 z-10 flex items-center justify-between h-[15vh] w-[90%] ml-[5%] text-white rounded-2xl px-5 sm:px-7 bg-gray-950">
+    <div className="relative top-10 max-md:px-5 z-10 shadow shadow-purple-700 flex items-center justify-between h-[15vh] w-[90%] ml-[5%] text-white rounded-full sm:px-7 bg-gray-950">
       {/* Logo */}
       <h2 className="text-2xl sm:text-3xl font-bold">
         <a href="/">
@@ -23,7 +23,7 @@ const Navbar = () => {
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex">
-        <ul className="flex gap-8 lg:gap-12 text-sm lg:text-lg font-semibold">
+        <ul className="flex gap-8 lg:gap-12 text-sm md:text-lg font-semibold">
           <NavLink
             to={"/"}
             className={({ isActive }) =>

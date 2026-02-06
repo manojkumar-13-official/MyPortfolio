@@ -93,7 +93,7 @@ const About = () => {
           {experienceData.map((exp) => (
             <div 
               key={exp.id}
-              className="border-2 border-purple-600 pl-6 py-2 rounded-xl md:w-[70%] lg:w-[60%] bg-gray-950 relative hover:bg-gray-950 transition-all duration-300 hover:shadow-lg hover:shadow-purple-600/50 hover:scale-105"
+              className="border-2 border-purple-600 pl-6 py-2 rounded-xl md:w-[70%] lg:w-[60%] lg:px-10 lg:py-5 bg-gray-950 relative hover:bg-gray-950 transition-all duration-300 hover:shadow-lg hover:shadow-purple-600/50 hover:scale-105"
             >
               <h3 className="text-xl font-bold text-purple-400 mb-1">{exp.position}</h3>
               <p className="text-white font-semibold mb-1">{exp.company}</p>

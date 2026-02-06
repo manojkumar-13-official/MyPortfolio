@@ -19,7 +19,7 @@ const Footer = () => {
     {
       id: 2,
       icon: FaLinkedinIn,
-      url: "https://www.linkedin.com/in/manojkumar-a/",
+      url: "https://www.linkedin.com/in/manojkumar-a-",
       label: "LinkedIn",
     },
     {
@@ -159,7 +159,7 @@ const Footer = () => {
           {/* Scroll to Top Button */}
           <button
             onClick={scrollToTop}
-            className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center border-2 border-purple-600 text-purple-400 hover:bg-purple-600 hover:text-white rounded-full transition-all duration-300"
+            className="cursor-pointer w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center border-2 border-purple-600 text-purple-400 hover:bg-purple-600 hover:text-white rounded-full transition-all duration-300"
             title="Scroll to top"
           >
             <FiArrowUp className="text-lg sm:text-xl" />

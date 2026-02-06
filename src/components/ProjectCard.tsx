@@ -27,7 +27,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
   const { image, title, description, technologies, github_link, website_link } = project;
 
   return (
-    <div className='h-auto w-auto border-2 border-purple-500 p-4 m-4 rounded-lg shadow-lg text-white mb-auto bg-gray-950'>
+    <div className='h-auto w-auto border-2 border-purple-500 p-4 m-4 rounded-lg shadow-lg text-white mb-auto bg-gray-950 hover:bg-gray-950 transition-all duration-300 hover:shadow-lg hover:shadow-purple-600/50 hover:scale-105'>
       <img src={image} alt={title} className='w-full h-60 object-cover rounded-lg' />
       <h2 className='lg:text-2xl sm:text-xl font-bold p-2 text-lg text-purple-500'>{title}</h2>
       <p className="p-2">{description}</p>
