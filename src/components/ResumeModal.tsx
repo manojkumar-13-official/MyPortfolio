@@ -9,7 +9,7 @@ interface ResumeModalProps {
 const ResumeModal = ({ isOpen, onClose }: ResumeModalProps) => {
   if (!isOpen) return null;
 
-  const resumeUrl = "https://drive.google.com/file/d/14R8hjhHJ6dttvLow8iSuk_APZle14IDc/view?usp=sharing";
+  const resumeUrl = "https://drive.google.com/file/d/14R8hjhHJ6dttvLow8iSuk_APZle14IDc/preview";
   const resumeDownloadUrl = "https://drive.google.com/uc?export=download&id=14R8hjhHJ6dttvLow8iSuk_APZle14IDc";
 
   const handleDownload = () => {
@@ -35,7 +35,7 @@ const ResumeModal = ({ isOpen, onClose }: ResumeModalProps) => {
         </div>
         <div className="flex-1 overflow-hidden min-h-0">
           <iframe
-            src={`https://drive.google.com/file/d/14R8hjhHJ6dttvLow8iSuk_APZle14IDc/preview`}
+            src={resumeUrl}
             className="w-full h-full"
             title="Resume"
             allow="autoplay"

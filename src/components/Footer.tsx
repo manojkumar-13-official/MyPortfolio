@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithub, FaLinkedinIn, FaTwitter, FaEnvelope } from "react-icons/fa";
 import { FiArrowUp } from "react-icons/fi";
 

@@ -1,5 +1,4 @@
-import React from 'react'
-import { FaGraduationCap, FaBriefcase, FaCode, FaCertificate } from 'react-icons/fa'
+import { FaGraduationCap, FaBriefcase, FaCode} from 'react-icons/fa'
 
 const About = () => {
   const educationData = [
